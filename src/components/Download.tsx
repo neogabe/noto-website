@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Monitor, Apple, FileCode } from 'lucide-react';
@@ -8,8 +7,8 @@ const DownloadButton = ({ icon, platform, version }: { icon: React.ReactNode, pl
     <div className="mb-4 flex justify-center">{icon}</div>
     <h3 className="text-xl font-bold font-helvetica mb-1">{platform}</h3>
     <p className="text-sm font-courier text-gray-500 mb-4">v{version}</p>
-    <Button className="w-full bg-black hover:bg-gray-800 text-white rounded-none border border-black transition-all font-helvetica text-sm">
-      Baixar
+    <Button disabled={platform === 'Linux' || platform === 'macOS'} className="w-full bg-black hover:bg-gray-800 text-white rounded-none border border-black transition-all font-helvetica text-sm">
+      {platform === 'Linux' || platform === 'macOS' ? 'Em breve' : 'Baixar'}
     </Button>
   </div>
 );

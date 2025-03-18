@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="border border-black p-3 bg-retro-lightgray shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
           <div className="bg-white border border-black p-4">
             <div className="flex justify-between items-center mb-4 border-b border-black pb-2">
-              <div className="font-courier text-sm">noto.txt</div>
+              <div className="font-courier text-sm">noto.md</div>
               <div className="flex gap-2">
                 <div className="h-3 w-3 border border-black"></div>
                 <div className="h-3 w-3 border border-black"></div>

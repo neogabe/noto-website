@@ -21,10 +21,10 @@ const About = () => {
             </p>
             <p>
               Nossa inspiração vem dos aplicativos clássicos de bloco de notas do início dos anos 2000,
-              mas com recursos modernos que fazem sentido. Sem inchaço, sem complexidade desnecessária.
+              mas com recursos modernos que fazem sentido. Sem excessos, sem complexidade desnecessária.
             </p>
             <p>
-              Baixe o Noto hoje e experimente anotações da maneira que deveria ser—simples, privada e eficaz.
+              Baixe o Noto hoje e experimente anotações da maneira que deveria ser—simples, seguras e eficaz.
             </p>
           </div>
           
