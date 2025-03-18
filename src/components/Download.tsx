@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Windows, Apple, FileCode } from 'lucide-react';
+import { Monitor, Apple, FileCode } from 'lucide-react';
 
 const DownloadButton = ({ icon, platform, version }: { icon: React.ReactNode, platform: string, version: string }) => (
   <div className="border border-black bg-white p-6 text-center hover:bg-retro-lightgray transition-colors">
@@ -27,7 +27,7 @@ const Download = () => {
         
         <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
           <DownloadButton 
-            icon={<Windows size={40} />}
+            icon={<Monitor size={40} />}
             platform="Windows"
             version="1.0.2"
           />
