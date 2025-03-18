@@ -7,30 +7,30 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold font-helvetica text-center mb-12 tracking-tight">
-            <span className="border-b-2 border-white pb-1">About Noto</span>
+            <span className="border-b-2 border-white pb-1">Sobre o Noto</span>
           </h2>
           
           <div className="font-helvetica leading-relaxed space-y-4">
             <p>
-              Remember when software was just software? No subscriptions, no cloud sync forced upon you, 
-              and no tracking your every keystroke? We do too.
+              Lembra quando software era apenas software? Sem assinaturas, sem sincronização na nuvem forçada,
+              e sem rastrear cada tecla que você digita? Nós também lembramos.
             </p>
             <p>
-              That's why we created Noto—a throwback to when note-taking apps were simple tools that 
-              did one job really well. Noto is built with a focus on privacy, speed, and simplicity.
+              É por isso que criamos o Noto—uma volta aos tempos em que aplicativos de anotações eram ferramentas simples que
+              faziam um trabalho muito bem. O Noto é construído com foco em privacidade, velocidade e simplicidade.
             </p>
             <p>
-              Our inspiration comes from the classic notepad applications of the early 2000s, 
-              but with modern features that make sense. No bloat, no unnecessary complexity.
+              Nossa inspiração vem dos aplicativos clássicos de bloco de notas do início dos anos 2000,
+              mas com recursos modernos que fazem sentido. Sem inchaço, sem complexidade desnecessária.
             </p>
             <p>
-              Download Noto today and experience note-taking the way it should be—simple, private, and effective.
+              Baixe o Noto hoje e experimente anotações da maneira que deveria ser—simples, privada e eficaz.
             </p>
           </div>
           
           <div className="mt-10 font-courier text-center text-sm border border-white p-4">
             <code>
-              "In simplicity, there is freedom."
+              "Na simplicidade, há liberdade."
             </code>
           </div>
         </div>

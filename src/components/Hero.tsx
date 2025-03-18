@@ -9,20 +9,20 @@ const Hero = () => {
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         <div className="text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-helvetica tracking-tight mb-6">
-            Simple. <br/> Effective. <br/> <span className="font-courier">Noto</span><span className="animate-blink">_</span>
+            Simples. <br/> Eficiente. <br/> <span className="font-courier">Noto</span><span className="animate-blink">_</span>
           </h1>
           <p className="text-lg mb-8 font-helvetica text-gray-700 max-w-lg">
-            A minimalist desktop application for your notes. Just like the good old days, but better.
+            Um aplicativo desktop minimalista para suas notas. Como nos velhos tempos, só que melhor.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href="#download">
               <Button className="bg-black hover:bg-gray-800 text-white rounded-none border border-black hover:shadow-md px-6 py-5 font-helvetica text-base tracking-wider transition-all">
-                <ArrowDownToLine className="mr-2 h-4 w-4" /> Download Now
+                <ArrowDownToLine className="mr-2 h-4 w-4" /> Baixar Agora
               </Button>
             </a>
             <a href="#features">
               <Button variant="outline" className="rounded-none border border-black hover:bg-retro-lightgray px-6 py-5 font-helvetica text-base tracking-wider transition-all">
-                Learn More
+                Saiba Mais
               </Button>
             </a>
           </div>
@@ -38,12 +38,12 @@ const Hero = () => {
               </div>
             </div>
             <div className="font-courier text-sm">
-              <p>Welcome to Noto!</p>
-              <p className="mt-2">- Clean interface</p>
-              <p>- Fast & reliable</p>
-              <p>- Markdown support</p>
-              <p>- Keyboard shortcuts</p>
-              <p className="mt-4">Download today<span className="animate-blink">_</span></p>
+              <p>Bem-vindo ao Noto!</p>
+              <p className="mt-2">- Interface limpa</p>
+              <p>- Rápido & confiável</p>
+              <p>- Suporte a Markdown</p>
+              <p>- Atalhos de teclado</p>
+              <p className="mt-4">Baixe hoje<span className="animate-blink">_</span></p>
             </div>
           </div>
         </div>

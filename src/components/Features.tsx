@@ -17,29 +17,29 @@ const Features = () => {
     <section id="features" className="py-16 bg-retro-gray">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold font-helvetica text-center mb-12 tracking-tight">
-          <span className="border-b-2 border-black pb-1">Features</span>
+          <span className="border-b-2 border-black pb-1">Recursos</span>
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureItem 
             icon={<FileText size={24} />}
-            title="Plain Text"
-            description="Keep it simple with clean, plain text notes that load instantly."
+            title="Texto Simples"
+            description="Mantenha a simplicidade com notas em texto simples que carregam instantaneamente."
           />
           <FeatureItem 
             icon={<Clock size={24} />}
-            title="Auto-Save"
-            description="Never lose your thoughts with real-time automatic saving."
+            title="Salvamento Automático"
+            description="Nunca perca seus pensamentos com salvamento automático em tempo real."
           />
           <FeatureItem 
             icon={<Keyboard size={24} />}
-            title="Shortcuts"
-            description="Navigate and edit efficiently with keyboard shortcuts."
+            title="Atalhos"
+            description="Navegue e edite eficientemente com atalhos de teclado."
           />
           <FeatureItem 
             icon={<Lock size={24} />}
-            title="Private"
-            description="Your notes stay on your device. No cloud, no tracking."
+            title="Privacidade"
+            description="Suas notas ficam no seu dispositivo. Sem nuvem, sem rastreamento."
           />
         </div>
       </div>

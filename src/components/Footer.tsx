@@ -11,7 +11,7 @@ const Footer = () => {
               Noto<span className="animate-blink">_</span>
             </h2>
             <p className="font-helvetica text-sm mt-1 text-gray-300">
-              © {new Date().getFullYear()} Noto App. All rights reserved.
+              © {new Date().getFullYear()} Noto App. Todos os direitos reservados.
             </p>
           </div>
           
@@ -19,18 +19,18 @@ const Footer = () => {
             <div>
               <h3 className="font-helvetica text-sm uppercase tracking-wider mb-2">Links</h3>
               <ul className="font-helvetica text-sm text-gray-300 space-y-1">
-                <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
+                <li><a href="#features" className="hover:text-white transition-colors">Recursos</a></li>
                 <li><a href="#download" className="hover:text-white transition-colors">Download</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="font-helvetica text-sm uppercase tracking-wider mb-2">Support</h3>
+              <h3 className="font-helvetica text-sm uppercase tracking-wider mb-2">Suporte</h3>
               <ul className="font-helvetica text-sm text-gray-300 space-y-1">
                 <li><a href="#" className="hover:text-white transition-colors">FAQ</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacy</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Contato</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Privacidade</a></li>
               </ul>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-4 border-t border-gray-700">
           <p className="font-courier text-xs text-center text-gray-400">
-            Made with nostalgia. Inspired by the simplicity of the 2000s.
+            Feito com nostalgia. Inspirado na simplicidade dos anos 2000.
           </p>
         </div>
       </div>

@@ -11,9 +11,9 @@ const Header = () => {
         </div>
         <nav className="hidden md:block">
           <ul className="flex space-x-6 font-helvetica text-sm uppercase tracking-wider">
-            <li><a href="#features" className="hover:underline">Features</a></li>
+            <li><a href="#features" className="hover:underline">Recursos</a></li>
             <li><a href="#download" className="hover:underline">Download</a></li>
-            <li><a href="#about" className="hover:underline">About</a></li>
+            <li><a href="#about" className="hover:underline">Sobre</a></li>
           </ul>
         </nav>
       </div>
